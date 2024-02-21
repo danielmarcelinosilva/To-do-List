@@ -4,6 +4,7 @@ const listaCompleta = document.querySelector('.list-task')
 
 let minhaListaDeItens = []
 
+//if(input.value = "none" && alert('VOCÊ NÃO PODE ADICIONAR TAREFAS VAZIAS!')) 
 function adicionarNovaTarefa() {
     minhaListaDeItens.push({
         tarefa: input.value,
